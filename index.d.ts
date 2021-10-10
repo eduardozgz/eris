@@ -197,6 +197,7 @@ declare namespace Eris {
     defaultImageFormat?: string;
     defaultImageSize?: number;
     disableEvents?: { [s: string]: boolean };
+    filterGuilds?: string[];
     firstShardID?: number;
     getAllUsers?: boolean;
     guildCreateTimeout?: number;
